@@ -23,3 +23,9 @@ Checked at 1440, 768, 390 and 320 px: no horizontal overflow, all images load, h
 
 Supplied screenshots and [Wix abstract illustrator template](https://www.wix.com/website-template/view/html/wh-1367) informed typography and composition. Research also considered [Brittany Chiang](https://britchiang.com/) for project detail and [Bruno Simon](https://bruno-simon.com/html/) for demonstrable work and direct contact. No conversion-rate claims are made. All project previews are from Shawn’s files.
 
+
+## FurFinder demo
+
+`projects/furfinder/index.html` is a browser-only adaptation of the defended capstone, linked from Featured Projects. Fictional data resets on refresh. No real accounts, applications or payments are connected.
+
+Verified search and filters, sample applications and approval analytics, lost reports, simulated donations, reset, and pet add/edit/remove in the browser. Reviewed phone (390 px), tablet (768 px), and desktop layouts.

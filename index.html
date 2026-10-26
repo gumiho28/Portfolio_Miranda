@@ -1,192 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shawn Rainielle C. Miranda | Professional Portfolio</title>
-    
-    <link rel="stylesheet" href="style.css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shawn Miranda — Creative Developer & UX Designer</title>
+<meta name="description" content="Shawn Miranda designs and builds thoughtful digital experiences. Explore RefuseMe, FurFinder, and responsive web projects.">
+<meta name="theme-color" content="#141414">
+<meta property="og:title" content="Shawn Miranda — Creative Developer & UX Designer">
+<meta property="og:description" content="Thoughtful interfaces. Working ideas. Explore selected web and UX projects, including the RefuseMe interactive prototype.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://api.fontshare.com"><link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
 </head>
 <body>
-
-    <div class="video-background">
-    <iframe 
-        src="https://www.youtube.com/embed/7Qj6Kz7YkJk?autoplay=1&mute=1&controls=0&loop=1&playlist=7Qj6Kz7YkJk&showinfo=0&rel=0&modestbranding=1" 
-        frameborder="0" 
-        allow="autoplay; encrypted-media" 
-        allowfullscreen>
-    </iframe>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="header frame">
+<a class="wordmark" href="#main" aria-label="Shawn Miranda home">SM</a>
+<p class="header-role">Creative development<br>& UX design</p>
+<nav aria-label="Main navigation"><a href="#projects">Work</a><a href="#about">About</a><a href="#contact">Let’s talk ↗</a></nav>
+</header>
+<main id="main">
+<section class="hero frame" aria-labelledby="hero-title">
+<h1 id="hero-title">Shawn <span>Miranda.</span></h1>
+<div class="hero-bottom"><p>Creative developer & UX designer, turning ideas into websites and interfaces people can use.</p><a class="button" href="#projects">Explore my work <span aria-hidden="true">↘</span></a></div>
+<div class="work-reel" aria-label="A preview of selected projects">
+<a class="reel-refuse" href="projects/refuseme/index.html" aria-label="Explore the RefuseMe prototype"><span class="reel-title">RefuseMe</span><img src="images/refuseme-home.png" alt="RefuseMe mobile dashboard with refusal logging and rewards" width="375" height="812"><span class="reel-caption">UX / Interactive prototype</span></a>
+<a class="reel-valorant" href="#valorant" aria-label="View Valorant project"><img src="images/ValorantLP.jpg" alt="Valorant landing page character showcase" width="1000" height="600"><span class="reel-caption">Web / Motion</span></a>
+<a class="reel-fur" href="#furfinder" aria-label="View FurFinder project"><img src="images/Furfinder.jpg" alt="FurFinder pet adoption website" width="1000" height="600"><span class="reel-caption">Product / Development</span></a>
 </div>
-    <header class="main-header">
-        <div class="container">
-            <a href="#" class="logo">Shawn Miranda</a>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact" class="btn-cta-small">Get in Touch</a></li>
-                </ul>
-            </nav>
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </header>
-
-<section id="hero" class="hero-section">
-    <div class="video-background">
-        <iframe 
-            src="https://www.youtube.com/embed/7Qj6Kz7YkJk?autoplay=1&mute=1&controls=0&loop=1&playlist=7Qj6Kz7YkJk&showinfo=0&rel=0&modestbranding=1" 
-            frameborder="0" 
-            allow="autoplay; encrypted-media" 
-            allowfullscreen>
-        </iframe>
-    </div>
-
-    <div class="container hero-content">
-        <p class="hero-intro">Hello, I'm</p>
-        <h1 class="hero-title">Shawn Rainielle C. Miranda.</h1>
-        <p class="hero-subtitle">I'm a <span class="highlight">Creative Developer</span> / <span class="highlight">UX Designer</span>. I build elegant, functional digital solutions.</p>
-        <a href="#projects" class="btn-cta">View My Work</a>
-    </div>
 </section>
-
-    <section id="about" class="about-section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-grid">
-                <div class="about-text">
-                    <p>I have over 2 years of experience designing and developing user interfaces, blending clean aesthetics with powerful functionality. My focus is on user-centered design and writing clean, scalable code.</p>
-                    <p>I thrive on solving complex problems and turning great ideas into seamless digital realities. When I'm not coding, you can find me exercising, playing video games, hiking.</p>
-                    
-                    <div class="skills-container">
-                        <h3>Core Skills</h3>
-                        
-                        <div class="skill-category">
-                            <h4>Frontend</h4>
-                            <div class="skills-list">
-                                <span class="skill-tag">HTML5</span>
-                                <span class="skill-tag">CSS3</span>
-                                <span class="skill-tag">JavaScript (ES6+)</span>
-                                <span class="skill-tag">Responsive Design</span>
-                            </div>
-                        </div>
-
-                        <div class="skill-category" style="margin-top: 1.5rem;">
-                            <h4>Data & Backend</h4>
-                            <div class="skills-list">
-                                <span class="skill-tag">SQL</span>
-                                <span class="skill-tag">Database Management</span>
-                                <span class="skill-tag">API Integration</span>
-                                <span class="skill-tag">Version Control (Git)</span>
-                            </div>
-                        </div>
-                    </div>
-                <div class="about-image">
-                    <img src="images/shawn.jpg" alt="Shawn Miranda - Headshot" class="profile-pic">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="projects-section">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            
-            <div class="project-grid">
-                
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/Furfinder.jpg" alt="FurFinder Pet Adoption App">
-                    </div>
-                    <div class="project-details">
-                        <h3>FurFinder: Pet Adoption Platform</h3>
-                        <p class="project-tags">SQL · User Authentication · Form Validation</p>
-                        
-                        <p>A web application to connect adoptable pets with loving families. The platform features user profiles, comprehensive pet search filters, and an efficient application tracking system.</p>
-                        
-                        <p style="font-size: 0.9rem; color: #8b949e;">Developed the full relational database schema using SQL to manage pet data, user interactions, and adoption applications.</p>
-                        
-                        <div class="project-links">
-
-                        </div>
-                    </div>
-                </div>
-
-
-            <div class="project-card">
-                <div class="project-image"><img src="images/ValorantLP.jpg" alt="Valorant Project"></div>
-                <div class="project-details">
-                    <h3>Mock Valorant Landing Page</h3>
-                    <p class="project-tags">HTML · CSS · GSAP</p>
-                    <p>A high-performance landing page featuring interactive character displays and smooth animations tailored for gaming audiences.</p>
-                    <div class="project-links">
-                        <a href="https://valorant-lp.vercel.app" target="_blank" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-card">
-                            <div class="project-image"><img src="images/ShawnTech.jpg" alt="Responsive Business Landing Page Thumbnail"></div>
-                            <div class="project-details">
-                                <h3>Responsive Business Landing Page</h3>
-                                <p class="project-tags">HTML5 · CSS3 · RWD</p>
-                                <p>A multi-section, conversion-focused landing page. This project demonstrates advanced layout skills using CSS Grid and Flexbox to create a seamless experience across all device sizes.</p>
-                                <div class="project-links">
-                                    <a href="https://responsivebusinesslandingpage.vercel.app" target="_blank" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
-                             </div>
-                        </div>
-                  </div>
-            </div>
-        </div>
-    </section>
-
-<section id="contact" class="contact-section">
-    <div class="container">
-        <h2 class="section-title">Get In Touch</h2>
-        <p>I am currently open to new opportunities and collaborations. If you have a question or just want to say hi, I'll do my best to get back to you!</p>
-        
-        <button id="contactBtn" class="btn-cta">Contact Me</button>
-    </div>
-</section>
-
-<div id="contactModal" class="modal">
-    <div class="modal-content">
-        <span class="close-btn">&times;</span>
-        <h2>Contact Details</h2>
-        <div class="contact-info">
-            <p><strong>Phone:</strong> 09672137048</p>
-            <p><strong>Email:</strong> <a href="mailto:shawncruz0928@gmail.com" class="direct-email">shawncruz0928@gmail.com</a></p>
-        </div>
-        <a href="mailto:shawncruz0928@gmail.com" class="btn-cta-small" style="display:inline-block; margin-top:1rem;">Send Email Now</a>
-    </div>
+<section id="projects" class="projects frame" aria-labelledby="projects-title">
+<div class="section-heading"><h2 id="projects-title">Featured projects</h2><p>Ideas made tangible.</p></div>
+<article class="featured">
+<a class="refuse-visual" href="projects/refuseme/index.html" aria-label="Open RefuseMe interactive prototype">
+<div class="refuse-art-copy"><span>RefuseMe</span><p>A little less plastic.<br>A little more purpose.</p></div>
+<div class="phone-pair"><img src="images/refuseme-welcome.png" alt="RefuseMe welcome screen" width="375" height="812" loading="lazy"><img src="images/refuseme-home.png" alt="RefuseMe home dashboard" width="375" height="812" loading="lazy"></div>
+</a>
+<div class="project-copy"><div><p class="project-kind">UX design / Clickable prototype</p><h3>Small refusals.<br>Better habits.</h3></div><div><p>RefuseMe makes refusing single-use plastic feel rewarding. Designed for young people in Baguio and the Cordillera, the experience connects daily pledges, refusal logging, progress, and local rewards.</p><p class="project-note">Explore onboarding, log a refusal, and browse rewards. This concept uses simulated data; accounts, AI coaching, and real reward redemption are not connected.</p><a class="text-link" href="projects/refuseme/index.html">Try RefuseMe ↗</a></div></div>
+</article>
+<div class="project-wall">
+<article id="valorant" class="project project-wide"><a class="project-image valorant-image" href="https://valorant-lp.vercel.app" target="_blank" rel="noopener noreferrer"><img src="images/ValorantLP.jpg" alt="Mock Valorant landing page with interactive character displays" width="1440" height="900" loading="lazy"></a><p class="project-kind">Frontend / HTML, CSS, GSAP</p><h3>Valorant</h3><p>An expressive landing page concept built around interactive characters and motion for a gaming audience.</p><a class="text-link" href="https://valorant-lp.vercel.app" target="_blank" rel="noopener noreferrer">Visit live site <span class="sr-only">(opens in a new tab)</span></a></article>
+<article id="furfinder" class="project project-offset"><div class="project-image fur-image"><img src="images/Furfinder.jpg" alt="FurFinder pet adoption platform interface" width="1440" height="900" loading="lazy"></div><p class="project-kind">Web application / SQL, Authentication</p><h3>FurFinder</h3><p>Helping pets find their people through search filters, profiles, and adoption applications.</p><details><summary>My contribution</summary><p>Developed the relational SQL database schema to manage pet data, user interactions, and adoption applications. The project also includes authentication and form validation.</p></details></article>
+<article class="project project-business"><a class="project-image business-image" href="https://responsivebusinesslandingpage.vercel.app" target="_blank" rel="noopener noreferrer"><img src="images/ShawnTech.jpg" alt="ShawnTech responsive business landing page" width="1440" height="900" loading="lazy"></a><div class="business-copy"><div><p class="project-kind">Responsive web / HTML, CSS</p><h3>ShawnTech</h3></div><div><p>A business landing page with clear content hierarchy and responsive layouts built with CSS Grid and Flexbox.</p><a class="text-link" href="https://responsivebusinesslandingpage.vercel.app" target="_blank" rel="noopener noreferrer">Visit live site <span class="sr-only">(opens in a new tab)</span></a></div></div></article>
 </div>
-
-    <footer class="main-footer">
-        <div class="container">
-            <h3 style="margin-bottom: 1.5rem; color: var(--text-muted); font-size: 1rem; text-transform: uppercase;">Find me on:</h3>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/shawn-miranda-75b915407/" target="_blank" title="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                
-                <a href="https://github.com/gumiho28" target="_blank" title="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                
-
-                <a href="https://www.facebook.com/shwncrz/" target="_blank" title="Facebook">
-                    <i class="fab fa-facebook"></i>
-                </a>
-            </div>
-            <p style="margin-top: 2rem;">&copy; 2026 Shawn Miranda. All Rights Reserved.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
+</section>
+<section id="about" class="about" aria-labelledby="about-title"><div class="frame about-grid"><div class="portrait"><img src="images/shawn.jpg" alt="Shawn Rainielle C. Miranda" width="700" height="850" loading="lazy"></div><div class="about-copy"><p class="project-kind">About me</p><h2 id="about-title">Design sense.<br>Developer mindset.</h2><p>I’m Shawn Rainielle C. Miranda. I have over two years of experience designing and developing interfaces, with a focus on user-centered design and clean, scalable code.</p><p>I enjoy working through the whole problem: how an interface feels, how it behaves, and how its data fits together. Away from the screen, you’ll find me exercising, gaming, or hiking.</p><dl class="skills"><div><dt>Interfaces</dt><dd>HTML5, CSS3, JavaScript, responsive design</dd></div><div><dt>Under the hood</dt><dd>SQL, database management, API integration, Git</dd></div></dl><a class="text-link" href="https://github.com/gumiho28" target="_blank" rel="noopener noreferrer">Explore my GitHub</a></div></div></section>
+<section id="contact" class="contact frame" aria-labelledby="contact-title"><div class="contact-top"><h2 id="contact-title">Have an idea?<br>Let’s build it.</h2><div><p>I’m open to new opportunities and collaborations. Tell me what you’re working on.</p><a class="button" href="mailto:shawncruz0928@gmail.com?subject=Let%E2%80%99s%20work%20together">Start a conversation ↗</a></div></div><div class="contact-details"><a href="mailto:shawncruz0928@gmail.com">shawncruz0928@gmail.com</a><a href="tel:+639672137048">+63 967 213 7048</a><button id="copy-email" type="button">Copy email</button><span id="copy-status" role="status" aria-live="polite"></span></div></section>
+</main>
+<footer class="footer"><div class="frame"><div class="footer-top"><p>© <span id="year">2026</span> Shawn Miranda</p><div class="socials"><a href="https://www.linkedin.com/in/shawn-miranda-75b915407/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://github.com/gumiho28" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.facebook.com/shwncrz/" target="_blank" rel="noopener noreferrer">Facebook</a></div><a href="#main">Back to top ↑</a></div><p class="footer-name" aria-hidden="true">Shawn Miranda.</p></div></footer>
+</body></html>
